@@ -1773,6 +1773,7 @@ public class QuickContactActivity extends ContactsActivity {
                 if (mHasAlreadyBeenOpened) {
                     finish();
                 } else {
+                    finish();
                     Log.i(TAG, "No contact found: " + ((ContactLoader)loader).getLookupUri());
                     Toast.makeText(QuickContactActivity.this, R.string.invalidContactMessage,
                             Toast.LENGTH_LONG).show();
